@@ -1,0 +1,79 @@
+{
+  "TaskName": "contextualrepresentation",
+  "TaskDescription": "Visual ERP task with algebraic, graphic, and lexical conditions.",
+  "ExperimentalConditions": [
+    "algebraic",
+    "graphic",
+    "lexical"
+  ],
+  "NumberOfExperimentalTrials": 240,
+  "NumberOfPracticeTrials": 15,
+  "PracticeTrialsPerCondition": 5,
+  "TrialsPerCondition": 80,
+  "BlocksPerCondition": 4,
+  "TrialsPerBlock": 20,
+  "StimuliPerTrial": 4,
+  "ContextElementsPerTrial": 3,
+  "TargetPosition": 4,
+  "CongruentTrialProportion": 0.5,
+  "IncongruentTrialProportion": 0.5,
+  "TrialSequence": {
+    "Type": "fixed constrained pseudorandom sequence",
+    "MaximumConsecutiveTrialsWithSameCongruency": 3,
+    "AppliedToAllParticipants": true,
+    "AppliedToAllConditions": true
+  },
+  "StimulusPresentation": {
+    "ContextElementColor": "white",
+    "TargetColor": "yellow",
+    "BackgroundColor": "black",
+    "ScreenSizeInches": 22,
+    "ScreenResolutionPixels": [
+      1680,
+      1050
+    ],
+    "ViewingDistanceCm": 60
+  },
+  "ResponseMapping": {
+    "Device": "mouse",
+    "left": "congruent",
+    "right": "incongruent"
+  },
+  "TrialTiming": {
+    "FixationDotsDuration": 0.35,
+    "PostFixationInterval": 0.65,
+    "ContextElementDuration": 0.35,
+    "InterstimulusInterval": 0.65,
+    "TargetDuration": 1.2,
+    "FinalBlackScreenDuration": 1.1,
+    "NominalTrialDuration": 6.3,
+    "Units": "s",
+    "TargetDurationIndependentOfResponseTime": true
+  },
+  "BlockStructure": {
+    "PracticeBlockBeforeEachCondition": true,
+    "RestBetweenExperimentalBlocks": true,
+    "ParticipantInitiatedNextBlockByMouseClick": true
+  },
+  "ConditionOrder": {
+    "Method": "counterbalanced",
+    "PossibleOrders": [
+      "AGL",
+      "ALG",
+      "GAL",
+      "GLA",
+      "LAG",
+      "LGA"
+    ],
+    "PlannedParticipantsPerOrder": 5
+  },
+  "Software": {
+    "Name": "PsychoPy",
+    "Version": "n/a",
+    "Reference": "Peirce, 2009"
+  },
+  "SourceNotes": [
+    "PsychoPy version remains to be recovered.",
+    "Actual participant assignment to counterbalancing orders remains to be verified."
+  ]
+}

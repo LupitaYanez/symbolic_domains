@@ -1,0 +1,24 @@
+{
+  "order_id": {
+    "Description": "Code for the planned order of the three conditions."
+  },
+  "condition_1": {
+    "Description": "First condition presented."
+  },
+  "condition_2": {
+    "Description": "Second condition presented."
+  },
+  "condition_3": {
+    "Description": "Third condition presented."
+  },
+  "planned_n": {
+    "Description": "Planned number of participants assigned to the order."
+  },
+  "ConditionLevels": {
+    "algebraic": "Condition containing algebraic material.",
+    "graphic": "Condition containing graphic material.",
+    "lexical": "Condition containing lexical material."
+  },
+  "CounterbalancingPurpose": "The six possible orders were used to minimize systematic carryover effects.",
+  "StatusNote": "planned_n is based on the original design description; actual assignment must be verified from participant records."
+}

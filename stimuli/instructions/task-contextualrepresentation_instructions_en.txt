@@ -1,0 +1,1 @@
+Four white dots will appear in the center of the screen, followed by a sequence of three white elements and one yellow element. Press the left mouse button as quickly as possible if the yellow element is congruent with the previous three, or the right mouse button if it is incongruent. Press any button to START.

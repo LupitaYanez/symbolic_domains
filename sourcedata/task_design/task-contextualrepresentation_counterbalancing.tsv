@@ -1,0 +1,7 @@
+order_id	condition_1	condition_2	condition_3	planned_n
+AGL	algebraic	graphic	lexical	5
+ALG	algebraic	lexical	graphic	5
+GAL	graphic	algebraic	lexical	5
+GLA	graphic	lexical	algebraic	5
+LAG	lexical	algebraic	graphic	5
+LGA	lexical	graphic	algebraic	5

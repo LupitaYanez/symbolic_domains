@@ -1,0 +1,1 @@
+En el centro de la pantalla aparecerán cuatro puntos blancos, seguidos de una secuencia con tres elementos en color blanco y uno en color amarillo. Presiona lo más rápido posible el botón izquierdo del ratón si el elemento amarillo es congruente con los tres anteriores o el botón derecho si es incongruente. Presiona cualquier botón para INICIAR.

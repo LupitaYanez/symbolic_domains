@@ -1,0 +1,44 @@
+{
+  "event_order": {
+    "Description": "Nominal serial position of the event within one trial."
+  },
+  "event_name": {
+    "Description": "Name of the trial phase."
+  },
+  "duration": {
+    "Description": "Nominal event duration.",
+    "Units": "s"
+  },
+  "description": {
+    "Description": "Human-readable description of the trial phase."
+  },
+  "foreground_color": {
+    "Description": "Nominal foreground color.",
+    "Levels": {
+      "white": "White visual element.",
+      "yellow": "Yellow visual element.",
+      "n/a": "No foreground visual element."
+    }
+  },
+  "background_color": {
+    "Description": "Nominal background color.",
+    "Levels": {
+      "black": "Black background."
+    }
+  },
+  "response_allowed": {
+    "Description": "Whether a behavioral response was expected.",
+    "Levels": {
+      "yes": "Mouse response expected.",
+      "no": "No response expected."
+    }
+  },
+  "NominalTrialDuration": {
+    "Value": 6.3,
+    "Units": "s"
+  },
+  "Notes": [
+    "The target remained on screen for 1.2 s regardless of response time.",
+    "Left mouse button indicated congruent; right mouse button indicated incongruent."
+  ]
+}

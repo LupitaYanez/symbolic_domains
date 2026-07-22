@@ -1,0 +1,11 @@
+event_order	event_name	duration	description	foreground_color	background_color	response_allowed
+1	fixation_dots	0.35	Four white dots presented at screen center	white	black	no
+2	post_fixation_interval	0.65	Blank interval after fixation dots	n/a	black	no
+3	context_1	0.35	First contextual element	white	black	no
+4	interstimulus_interval_1	0.65	Blank interval after first contextual element	n/a	black	no
+5	context_2	0.35	Second contextual element	white	black	no
+6	interstimulus_interval_2	0.65	Blank interval after second contextual element	n/a	black	no
+7	context_3	0.35	Third contextual element	white	black	no
+8	interstimulus_interval_3	0.65	Blank interval after third contextual element	n/a	black	no
+9	target	1.2	Fourth element and response target	yellow	black	yes
+10	final_black_screen	1.1	Black screen at the end of the trial	n/a	black	no
