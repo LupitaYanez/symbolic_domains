@@ -1,61 +1,37 @@
-# Contextual Integration Across Symbolic Domains (ERP Study)
+# Position-Related Centro-Parietal ERP Responses During Contextual Processing Across Symbolic Domains
 
-This repository contains data, materials, and analysis code for the study:
+This repository contains de-identified preprocessed ERP data, stimulus materials, task-design files, and analysis code associated with the manuscript:
 
-**"Graded centro-parietal responses during contextual integration across symbolic domains"**
-
-Biorxiv link: []
+**Yáñez-Ramos, M. G., Zarabozo Enríquez de Rivera, D., & González Garrido, A. A.**  
+*Position-Related Centro-Parietal ERP Responses During Contextual Processing Across Symbolic Domains.*
 
 ## Overview
 
-This study investigates how contextual information builds up over time across structured sequences in three symbolic domains:
+This study examined how event-related potential (ERP) activity changes across successive positions in structured symbolic sequences. Participants processed four-element sequences from three symbolic domains:
 
-- Lexical (sentences)
+- Lexical sentences
+- Algebraic monomial operations
+- Graphical line-based image compositions
 
-- Algebraic (monomial operations)
+The primary analyses focused on ERP mean amplitudes in the 250–500 ms interval, with additional analyses of early-window activity in the 0–180 ms interval.
 
-- Graphical (line-based image compositions)
+## Repository contents
 
-Event-related potentials (ERPs) were recorded while participants processed four-element sequences. Analyses focus on how neural responses in the 250–500 ms time window vary as a function of sequence position.
+```text
+code/
+  Analysis scripts used for preprocessing, statistical analysis, and figure generation.
 
-## Repository Contents
+derivatives/
+  De-identified preprocessed ERP data and derived analysis files.
 
-- `data/` → Preprocessed ERP data (if shared)
+docs/
+  Documentation files describing the dataset, task structure, variables, and analysis workflow.
 
-- `code/` → Scripts for preprocessing, statistical analysis, and figure generation
+sourcedata/task_design/
+  Task-design files, including trial order, timing, counterbalancing, and design metadata.
 
-- `materials/` → Stimuli or task-related materials (if shareable)
+stimuli/instructions/
+  Participant instructions and stimulus-related documentation.
 
-- `figures/` → Scripts or outputs used in the manuscript figures
-
-## Methods Summary
-
-- EEG recorded using 10–20 system
-
-- Preprocessing: EEGLAB / ERPLAB
-
-- Statistical analysis: Linear mixed-effects models (REML, SPSS)
-
-- Focus: Sequence position effects and centro-parietal activity
-
-## Availability
-
-Data, materials, and code will be made publicly available upon publication of the associated manuscript.
-
-## Contact
-
-For questions or requests, please contact:
-
-María Guadalupe Yáñez-Ramos  
-
-Email: yanez.ramos.mg@gmail.com
-
-## Citation
-If you use this repository, please cite:
-
-Yáñez-Ramos, M. G., Zarabozo, D., & González-Garrido, A. A. (in press).
-Graded centro-parietal responses during contextual integration across symbolic domains.
-
-## License
-
-This project is licensed under the MIT License.
+archive/unclassified/
+  Archived or auxiliary files not required for the primary reproducibility workflow.
