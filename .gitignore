@@ -17,3 +17,13 @@ Thumbs.db
 *.tmp
 ~$*
 .DS_Store
+
+# Local/private files
+PRIVATE_*
+*original*anonymous*mapping*
+*Original*Anonymous*Mapping*
+ResultsMix.txt
+Resultsx.txt
+*.asv
+.DS_Store
+Thumbs.db

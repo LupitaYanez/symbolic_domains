@@ -55,7 +55,9 @@ end
 %  Experimental information
 % -------------------------------------------------------------------------
 
-participantIDs = 1:30;
+% Public anonymized participant identifiers are sequential: sub-01 to sub-27.
+% Original laboratory participant numbers are not included in the public repository.
+participantIDs = 1:27;
 
 domains = struct( ...
     'code', {'A', 'G', 'L'}, ...
