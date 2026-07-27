@@ -1,0 +1,19 @@
+ERPLAB averaged ERP derivatives
+================================
+
+This folder contains de-identified ERPLAB averaged ERP files for 27 participants.
+
+These files are derivatives, not raw EEG data.
+
+Original ERPLAB .erp files were anonymized before public sharing. Potentially identifying fields such as ERP.history, original ERP.filepath, original ERP.filename, and original ERP.erpname were removed or replaced.
+
+Naming convention:
+
+  sub-XX/eeg/sub-XX_task-symbolic_desc-averagedERP_erp.erp
+  sub-XX/eeg/sub-XX_task-symbolic_desc-averagedERP_erp.json
+
+Participant identifiers are sequential and anonymized. Original excluded IDs are not preserved in the public filenames.
+
+The private original-to-anonymized mapping file is created only for local record keeping and must not be uploaded to a public repository.
+
+The .erp format is preserved to allow reuse in ERPLAB.

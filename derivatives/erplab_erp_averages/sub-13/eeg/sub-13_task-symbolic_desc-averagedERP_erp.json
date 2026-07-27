@@ -1,0 +1,41 @@
+{
+  "Description": "Anonymized ERPLAB averaged ERP derivative file.",
+  "ParticipantID": "sub-13",
+  "TaskName": "symbolic",
+  "DerivativeDescription": "averagedERP",
+  "DataType": "Averaged ERP waveform",
+  "SoftwareName": "ERPLAB",
+  "SourceFormat": "ERPLAB .erp",
+  "Filename": "sub-13_task-symbolic_desc-averagedERP_erp.erp",
+  "RawDataIncluded": false,
+  "TrialType": "Averaged ERP waveforms from the symbolic contextual processing task.",
+  "EpochWindow": {
+    "Start": -0.1,
+    "End": 0.495,
+    "Units": "seconds"
+  },
+  "BaselineCorrection": {
+    "Window": [-0.100, 0.000],
+    "Units": "seconds"
+  },
+  "Filtering": {
+    "OfflineBandpass": "0.1-18 Hz",
+    "FilterType": "zero-phase Butterworth",
+    "Order": 2
+  },
+  "RecordingReference": "Linked earlobes / linked biauricular reference",
+  "SamplingFrequency": 200,
+  "NumberOfChannels": 13,
+  "NumberOfTimePoints": 120,
+  "NumberOfBins": 12,
+  "ChannelLabels": ["F3", "F4", "C3", "C4", "P3", "P4", "O1", "O2", "Fz", "Cz", "Pz", "Fp1", "Fp2"],
+  "Anonymization": {
+    "ERPHistoryRemoved": true,
+    "OriginalFilepathRemoved": true,
+    "OriginalFilenameRemoved": true,
+    "OriginalERPNameRemoved": true,
+    "ERPNameMatchesAnonymizedFilename": true,
+    "OriginalToAnonymizedMappingIsPrivate": true
+  },
+  "Notes": "This is a BIDS-like derivative sidecar for an ERPLAB .erp averaged waveform file. The ERPLAB .erp format is preserved to support reuse in ERPLAB."
+}

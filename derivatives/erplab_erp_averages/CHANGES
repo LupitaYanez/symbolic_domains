@@ -1,0 +1,5 @@
+1.0.0
+-----
+- Created anonymized ERPLAB averaged ERP derivative dataset.
+- Removed original file paths, histories, filenames, and source-identifying metadata from ERP structures.
+- Added BIDS-like filenames, JSON sidecars, participants.tsv, README, CHANGES, and dataset_description.json.

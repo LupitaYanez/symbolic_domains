@@ -1,0 +1,17 @@
+{
+  "Name": "ERPLAB averaged ERP derivatives for symbolic contextual processing study",
+  "BIDSVersion": "1.11.1",
+  "DatasetType": "derivative",
+  "GeneratedBy": [
+    {
+      "Name": "ERPLAB",
+      "Description": "Averaged ERP files generated with ERPLAB and anonymized for public sharing"
+    },
+    {
+      "Name": "BIDSprep.m",
+      "Description": "Custom MATLAB script to anonymize ERPLAB ERP structures and generate BIDS-like derivative metadata"
+    }
+  ],
+  "SourceDatasets": [],
+  "HowToAcknowledge": "Please cite the associated manuscript: Yanez-Ramos et al., Position-Related Centro-Parietal ERP Responses During Contextual Processing Across Symbolic Domains."
+}
